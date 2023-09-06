@@ -1,0 +1,54 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    background-color: red;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: black;
+    color:red;
+}
+
+#cabecalho .nav .nav-link, .navbar-brand,
+.navbar-brand:hover
+.nav-servicos .nav-link.active:hover {
+    color: black;
+}
+
+.section-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-colored {
+    color: red;
+}
+
+#sobre-a-mecanica, #servicos {
+    background-color: #c12525;
+}
+
+.nav-servicos .nav-link.active,
+#contato button {
+    background-color: black;
+    color: red;
+}
+
+.nav-servicos .nav-link:hover {
+    color: red;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#mensagem {
+    resize: none;
+    height: 180px;
+}

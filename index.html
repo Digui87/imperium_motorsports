@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imperium Motorsports</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fw-bold fs-2">Imperium Motorsports</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-mecanica" class="nav-link">
+                            <i class="bi bi-house-gear-fill me-1"></i>
+                            Sobre a mecânica</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#especialidades" class="nav-link">
+                            <i class="bi bi-ui-checks"></i>
+                            Especialidades</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#servicos" class="nav-link">
+                            <i class="bi bi-wrench-adjustable-circle"></i>
+                            Nossos serviços</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Entre em contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-mecanica">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/oficina1.jpg" class="d-block w-100" alt="Foto do interior oficina">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/oficina2.jpg" class="d-block w-100" alt="Foto do interior oficina">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/oficina3.jpg" class="d-block w-100" alt="Foto do interior oficina">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/oficina4.jpg" class="d-block w-100 rounded" alt="Foto do interior da oficina">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title fw-bold">Sobre <span class="text-colored">a mecânica</span></h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, fugiat odit, quibusdam id pariatur 
+                                debitis ad delectus dignissimos accusamus corrupti deleniti, iure asperiores perspiciatis deserunt 
+                                distinctio aliquam nam qui architecto.
+                            </p>
+                            <h3 class="section-title fw-bold">Nossas <span class="text-colored">especialidades</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ut reprehenderit libero molestias quae 
+                                quas dolore, repellendus, deserunt sapiente in corporis! Molestias nemo unde earum incidunt at ab totam 
+                                rerum!
+                            </p>
+                            <ul>
+                                <li>Mão-de-obra Especializada</li>
+                                <li>Trabalhamos apenas com peças genuínas</li>
+                                <li>Motores à combustão, híbridos e elétricos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="especialidades" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title fw-bold fs-1 text-center">Especializações</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/Ferrari F-40.png" class="d-block w-100 rounded mb-2" alt="Ferrari F-50">
+                        <h3 class="section-title fw-bold fs-4">
+                            <i class="bi bi-car-front-fill"></i>
+                            Mão-de-obra Especializada</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium aliquid numquam eligendi perspiciatis 
+                            quidem. Commodi incidunt, assumenda consequuntur voluptatum, facere explicabo id, ex impedit rerum odit 
+                            culpa possimus accusantium animi?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/Ferrari Enzo.png" class="d-block w-100 rounded mb-2" alt="Ferrari SF-90">
+                        <h3 class="section-title fw-bold fs-4">
+                            <i class="bi bi-gear-wide"></i>
+                            Trabalhamos apenas com peças genuínas</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium aliquid numquam eligendi perspiciatis 
+                            quidem. Commodi incidunt, assumenda consequuntur voluptatum, facere explicabo id, ex impedit rerum odit 
+                            culpa possimus accusantium animi?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/Ferrari LaFerrari.png" class="d-block w-100 rounded mb-2" alt="Foto da mecânica">
+                        <h3 class="section-title fw-bold fs-4">
+                            <i class="bi bi-check-circle"></i>
+                            Motores à combustão, híbridos e elétricos</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium aliquid numquam eligendi perspiciatis 
+                            quidem. Commodi incidunt, assumenda consequuntur voluptatum, facere explicabo id, ex impedit rerum odit 
+                            culpa possimus accusantium animi?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center fw-bold mb-5">
+                    Nossos <span class="text-colored">Serviços</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-servicos">
+                            <button data-bs-toggle="tab" data-bs-target="#brakes" class="fw-bold text-start nav-link text-colored active" type="button">Freios</button>
+                            <button data-bs-toggle="tab" data-bs-target="#engine" class="fw-bold text-start nav-link text-colored" type="button">Motor</button>
+                            <button data-bs-toggle="tab" data-bs-target="#suspension" class="fw-bold text-start nav-link text-colored" type="button">Suspensão completa</button>
+                            <button data-bs-toggle="tab" data-bs-target="#transmission" class="fw-bold text-start nav-link text-colored" type="button">Transmissão</button>
+                            <button data-bs-toggle="tab" data-bs-target="#lights" class="fw-bold text-start nav-link text-colored" type="button">Elétrica</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="brakes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brakes1.jpeg" alt="Freios de uma Ferrari">
+                                        <h5 class="fw-bold mt-2">Discos e pinças originais</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo iusto enim.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brakes2.jpg" alt="Freios de uma Ferrari">
+                                        <h5 class="fw-bold mt-2">Visual bonito</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo iusto enim.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brakes3.jpeg" alt="Freios de uma Ferrari">
+                                        <h5 class="fw-bold mt-2">Peças genuínas</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo iusto enim.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brakes4.jpg" alt="Freios de uma Ferrari">
+                                        <h5 class="fw-bold mt-2">Fluídos de alta temperatura</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo iusto enim.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="engine">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/engine1.jpg" alt="Motor de uma Ferrari">
+                                        <h5 class="fw-bold mt-2">Manutenção desde os motores clássicos</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo iusto enim.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/engine2.jpg" alt="Motor de uma Ferrari">
+                                        <h5 class="fw-bold mt-2">Montagem feita por profissionais</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo iusto enim.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/engine3.jpg" alt="Motor de uma Ferrari">
+                                        <h5 class="fw-bold mt-2">Substituição de fluídos</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo iusto enim.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/engine4.jpg" alt="Motor de uma Ferrari">
+                                        <h5 class="fw-bold mt-2">Preparação em casos especiais</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo iusto enim.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="suspension">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/suspension1.jpg" alt="Suspensão de uma Ferrari">
+                                        <h5 class="fw-bold mt-2">Revisão total da suspensão</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo iusto enim.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/suspension2.jpg" alt="Suspensão de uma Ferrari">
+                                        <h5 class="fw-bold mt-2">Componentes</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo iusto enim.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/suspension3.jpg" alt="Suspensão de uma Ferrari">
+                                        <h5 class="fw-bold mt-2">Desde às mais complexas, às mais simples</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo iusto enim.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/suspension4.jpg" alt="Suspensão de uma Ferrari">
+                                        <h5 class="fw-bold mt-2">Exemplo de suspensão dianteira</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo iusto enim.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="transmission">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/transmission1.jpg" alt="Transmissão automática">
+                                        <h5 class="fw-bold mt-2">Transmissão Automática</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo iusto enim.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/transmission2.jpg" alt="Transmissão manual">
+                                        <h5 class="fw-bold mt-2">Transmissão Manual</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo iusto enim.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/transmission3.jpg" alt="Transmissão completa">
+                                        <h5 class="fw-bold mt-2">Transmissão e seus componentes</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo iusto enim.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/transmission4.jpeg" alt="Transmissão engrenagens">
+                                        <h5 class="fw-bold mt-2">Transmissão engrenagens</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo iusto enim.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="lights">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/lights1.jpg" alt="Volante e painel de uma Ferrari">
+                                        <h5 class="fw-bold mt-2">Volante e painel de instrumentos</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo iusto enim.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/lights2.jpg" alt="Farós da LaFerrari">
+                                        <h5 class="fw-bold mt-2">Faróis Xenon e LED</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo iusto enim.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/lights3.jpg" alt="Logo da Ferrari projetado no chão">
+                                        <h5 class="fw-bold mt-2">Projeção de iluminação</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo iusto enim.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/lights4.jpg" alt="Traseira da SF-90">
+                                        <h5 class="fw-bold mt-2">Lanteras e luzes de freio</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo iusto enim.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title fw-bold text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p>Rua Front End nº 145, Bairro Bootstrap - Veranópolis - RS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
