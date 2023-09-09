@@ -17,12 +17,20 @@ body {
     color: black;
 }
 
+.carousel-item img {
+    height: 900px;
+}
+
 .section-title {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .text-colored {
     color: red;
+}
+
+.link-menu {
+    color: black;
 }
 
 #sobre-a-mecanica, #servicos {
@@ -37,6 +45,10 @@ body {
 
 .nav-servicos .nav-link:hover {
     color: red;
+}
+
+.col-md-3 img {
+    height: 200px;
 }
 
 .social-links li {
