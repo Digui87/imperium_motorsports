@@ -17,10 +17,6 @@ body {
     color: black;
 }
 
-.carousel-item img {
-    height: 900px;
-}
-
 .section-title {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -47,10 +43,6 @@ body {
     color: red;
 }
 
-.col-md-3 img {
-    height: 200px;
-}
-
 .social-links li {
     list-style: none;
     display: inline;
@@ -63,4 +55,14 @@ body {
 #mensagem {
     resize: none;
     height: 180px;
+}
+
+@media screen and (min-width: 1024px) {
+    .carousel-item img {
+        height: 800px;
+    }
+
+    .col-md-3 img {
+        height: 200px;
+    }
 }
